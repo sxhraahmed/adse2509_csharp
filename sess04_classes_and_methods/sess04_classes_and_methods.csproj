@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Which file runs when you press Ctrl+F5. Change it in Properties > Application > Startup object -->
+    <StartupObject>sess04_classes_and_methods.DemoSimpleMath</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Program.cs has top-level statements, which would always run instead of the startup object -->
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+</Project>
