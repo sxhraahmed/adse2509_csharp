@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Which file runs when you press Ctrl+F5. Change it in Properties > Application > Startup object -->
+    <StartupObject>sess09_delegates_events_and_collections.EventDelegate</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sess07_properties_records_indexers\sess07_properties_records_indexers.csproj" />
+    <ProjectReference Include="..\sess08_namespaces_and_exceptions\sess08_namespaces_and_exceptions.csproj" />
+  </ItemGroup>
+
+</Project>
