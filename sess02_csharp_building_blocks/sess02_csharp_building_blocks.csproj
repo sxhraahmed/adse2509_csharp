@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Which file runs when you press Ctrl+F5. Change it in Properties > Application > Startup object -->
+    <StartupObject>sess02_csharp_building_blocks.ReadUserDetails</StartupObject>
+  </PropertyGroup>
+
+</Project>
